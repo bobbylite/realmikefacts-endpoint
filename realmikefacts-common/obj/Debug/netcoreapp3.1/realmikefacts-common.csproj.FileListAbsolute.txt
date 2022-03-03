@@ -1,0 +1,10 @@
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\obj\Debug\netcoreapp3.1\realmikefacts-common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\obj\Debug\netcoreapp3.1\realmikefacts-common.AssemblyInfoInputs.cache
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\obj\Debug\netcoreapp3.1\realmikefacts-common.AssemblyInfo.cs
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\obj\Debug\netcoreapp3.1\realmikefacts-common.csproj.CoreCompileInputs.cache
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\bin\Debug\netcoreapp3.1\realmikefacts-common.deps.json
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\bin\Debug\netcoreapp3.1\realmikefacts-common.dll
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\bin\Debug\netcoreapp3.1\realmikefacts-common.pdb
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\obj\Debug\netcoreapp3.1\realmikefacts-common.dll
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\obj\Debug\netcoreapp3.1\realmikefacts-common.pdb
+D:\Source\Repo\realmikefacts-endpoint\realmikefacts-common\obj\Debug\netcoreapp3.1\realmikefacts-common.csproj.AssemblyReference.cache

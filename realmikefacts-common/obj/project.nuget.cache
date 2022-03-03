@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JJOulwtd0f5ussV0X9Y5o2Pw+v9Hi/N+kOPEPdcWG0DfqiVxFz4F31z6qjMu6q68lO12cJNgyXCXGqiGdd4Cww==",
+  "success": true,
+  "projectFilePath": "D:\\Source\\Repo\\realmikefacts-endpoint\\realmikefacts-common\\realmikefacts-common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bobby\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.0\\amazon.lambda.apigatewayevents.2.4.0.nupkg.sha512",
+    "C:\\Users\\bobby\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

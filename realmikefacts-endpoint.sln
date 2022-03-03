@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "realmikefacts-authentication-endpoint", "realmikefacts-authentication-endpoint\realmikefacts-authentication-endpoint.csproj", "{69251E42-D121-42DB-9135-36F4B2477B80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "realmikefacts-authentication-endpoint.Tests", "realmikefacts-authentication-endpoint.Tests\realmikefacts-authentication-endpoint.Tests.csproj", "{B3A426ED-DCF7-4127-9607-E0CB2944E923}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "realmikefacts-dynamo-endpoint", "..\realmikefacts-dynamo-endpoint\realmikefacts-dynamo-endpoint\realmikefacts-dynamo-endpoint.csproj", "{CCF8B515-0FF0-4AD3-91CE-30950D136472}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "realmikefacts-dynamo-endpoint.Tests", "..\realmikefacts-dynamo-endpoint\realmikefacts-dynamo-endpoint.Tests\realmikefacts-dynamo-endpoint.Tests.csproj", "{12B01CBE-C879-4446-A74B-97FF3D2E7EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "realmikefacts-common", "realmikefacts-common\realmikefacts-common.csproj", "{00708E3F-5D70-4FBA-A956-00BE0C606974}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69251E42-D121-42DB-9135-36F4B2477B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69251E42-D121-42DB-9135-36F4B2477B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69251E42-D121-42DB-9135-36F4B2477B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69251E42-D121-42DB-9135-36F4B2477B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A426ED-DCF7-4127-9607-E0CB2944E923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A426ED-DCF7-4127-9607-E0CB2944E923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A426ED-DCF7-4127-9607-E0CB2944E923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A426ED-DCF7-4127-9607-E0CB2944E923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF8B515-0FF0-4AD3-91CE-30950D136472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF8B515-0FF0-4AD3-91CE-30950D136472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF8B515-0FF0-4AD3-91CE-30950D136472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF8B515-0FF0-4AD3-91CE-30950D136472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B01CBE-C879-4446-A74B-97FF3D2E7EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B01CBE-C879-4446-A74B-97FF3D2E7EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B01CBE-C879-4446-A74B-97FF3D2E7EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B01CBE-C879-4446-A74B-97FF3D2E7EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00708E3F-5D70-4FBA-A956-00BE0C606974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00708E3F-5D70-4FBA-A956-00BE0C606974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00708E3F-5D70-4FBA-A956-00BE0C606974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00708E3F-5D70-4FBA-A956-00BE0C606974}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {195E30E1-F5E8-4037-A5F7-231DE3355B6E}
+	EndGlobalSection
+EndGlobal
