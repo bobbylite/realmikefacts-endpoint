@@ -61,11 +61,9 @@ namespace realmikefacts_authentication_endpoint
                                     return new RealMikeFactsAuthorizationResponse
                                     {
                                         StatusCode = ApiStatusCode.OK,
-                                        Body = JsonConvert.SerializeObject(new RealMikeFactsAuthorizationResponse
-                                        {
-                                            Jwt = jwt,
-                                            Cookies = cookieArray
-                                        })
+                                        Jwt = jwt,
+                                        Cookies = cookieArray,
+                                        Body = JsonConvert.SerializeObject("Success")
                                     };
                             }
                         }
@@ -129,7 +127,7 @@ namespace realmikefacts_authentication_endpoint
                 return new RealMikeFactsAuthorizationResponse
                 {
                     StatusCode = ApiStatusCode.UNAUTHORIZED,
-                    Body = "Unauthorized attempt"
+                    Body = JsonConvert.SerializeObject("Unauthorized attempt")
                 };
 
             var jwtHandler = new JwtSecurityTokenHandler();
@@ -154,7 +152,7 @@ namespace realmikefacts_authentication_endpoint
             var response = new RealMikeFactsAuthorizationResponse
             {
                 StatusCode = ApiStatusCode.OK,
-                Body = jwt
+                Body = JsonConvert.SerializeObject(jwt)
             };
             response.SetHeaderValues("Set-Cookie", serializedCookie, true);
             response.SetHeaderValues("access-control-expose-headers", "Set-Cookie", true);
