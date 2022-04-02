@@ -1,15 +1,11 @@
 using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
 using System.Threading.Tasks;
 using Amazon.Lambda.APIGatewayEvents;
 using Amazon.Lambda.Core;
-using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
-using realmikefacts_common;
 using realmikefacts_common.Model;
-using realmikefacts_common.Model.Jwt;
 using realmikefacts_common.Model.Requests;
 using realmikefacts_common.Model.Responses;
 
@@ -27,7 +23,7 @@ namespace realmikefacts_authentication_endpoint
         /// <summary>
         /// A simple function that takes a string and does a ToUpper
         /// </summary>
-        /// <param name="input"></param>
+        /// <param name="request"></param>
         /// <param name="context"></param>
         /// <returns></returns>
         public async Task<APIGatewayHttpApiV2ProxyResponse> FunctionHandler(APIGatewayHttpApiV2ProxyRequest request, ILambdaContext context)
