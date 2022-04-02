@@ -36,7 +36,7 @@ namespace realmikefacts_authentication_endpoint
             {
                 switch (request?.RouteKey)
                 {
-                    case "OPTIONS /authorization":
+                    case AuthorizationRouteKeyManager.Options:
                         var optionsResponse = new APIGatewayHttpApiV2ProxyResponse()
                         {
                             StatusCode = 200
@@ -44,7 +44,7 @@ namespace realmikefacts_authentication_endpoint
 
                         return optionsResponse;
 
-                    case "POST /authorization":                           
+                    case AuthorizationRouteKeyManager.Post:                           
                         if (request?.Cookies != null)
                         {
                             foreach (var cookieObject in request?.Cookies)
@@ -70,7 +70,7 @@ namespace realmikefacts_authentication_endpoint
 
                         return CreateCookieFromRequestData(request);
 
-                    case "GET /authorization":
+                    case AuthorizationRouteKeyManager.Get:
                         if (request?.Cookies != null)
                         {
                             foreach (var cookieObject in request.Cookies)
